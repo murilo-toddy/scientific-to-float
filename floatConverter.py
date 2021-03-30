@@ -1,6 +1,6 @@
 import pathlib
 
-for path in pathlib.Path('/mnt/161EAC0D1249AD81/Codes/Tupã/Diferencial Eletrônico/PreController/TextFiles').iterdir():
+for path in pathlib.Path('<your_path>').iterdir():
     
     if path.is_file():
 
